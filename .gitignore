@@ -91,6 +91,9 @@ Plugins/**/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
+# Android (Adaptive Scalable Texture Compression)
+Android_ASTC/*
+
 # Other potentially ignored files
 Logs/
 CrashReportClient/

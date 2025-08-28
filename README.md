@@ -1,5 +1,6 @@
-### Unreal Engine - MacOS
-![](https://dev.epicgames.com/community/api/documentation/image/bafbc878-8d43-4bdd-9964-85d6079d6811?resizing_type=fill&width=1920&height=335)
+# Unreal Engine - MacOS
+
+![Unreal Engine](https://dev.epicgames.com/community/api/documentation/image/bafbc878-8d43-4bdd-9964-85d6079d6811?resizing_type=fill&width=1920&height=335)
 
 This custom VR template takes the base VR template and makes the following changes:
 
@@ -8,7 +9,7 @@ This custom VR template takes the base VR template and makes the following chang
 * Snap turn (Right thumbstick L + R)
 * Base teleport functionality is unchanged (Right thumbstick up)
 
-**How to use**
+## How to use
 
 * Clone into desired location
 * Open `CustomVRTemplate` project in Unreal Engine
@@ -16,12 +17,16 @@ This custom VR template takes the base VR template and makes the following chang
 * When packaging completes successfully you can find the optimized build `.apk` file in the `Android_ASTC` directory
 * To build your own project off this template simply copy the `/Config` and `/Content` folders and replace those directories in your new project
 
+
+*When starting your new project make sure to navigate to `Edit > Project Settings` and in the Platforms tab click `Android` and resolve any issues in the `APK Packaging` and `Google Play Services` sections. Set the `Minimum SDK Version` to 29 and `Target SDK Version` to 32
+
 *For light building issues on MacOS you will need to add `UnrealEditor` and `UnrealLightmass` to your firewall settings to allow connections or temporarily disable firewall
 
+[Install SDKs with Android Studio Flamingo](https://developer.android.com/studio/releases/past-releases/as-flamingo-release-notes)
 
 [Getting started with Meta Quest Developer Hub](https://developers.meta.com/horizon/documentation/unity/ts-mqdh-getting-started)
 
-**Run a project on the Quest 3**
+## Run a project on the Quest 3
 
 * Install Meta Quest Developer Hub
 * Connect Quest 3 to machine

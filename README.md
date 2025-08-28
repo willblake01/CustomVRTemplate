@@ -17,6 +17,8 @@ This custom VR template takes the base VR template and makes the following chang
 
 *For light building issues on MacOS you will need to add `UnrealEditor` and `UnrealLightmass` to your firewall settings to allow connections or temporarily disable firewall
 
+[Getting started with Meta Quest Developer Hub](https://developers.meta.com/horizon/documentation/unity/ts-mqdh-getting-started)
+
 **Run a project on the Quest 3**
 
 * Install Meta Quest Developer Hub

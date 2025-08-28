@@ -14,8 +14,10 @@ This custom VR template takes the base VR template and makes the following chang
 * Open `CustomVRTemplate` project in Unreal Engine
 * Run `Platforms > Android > Package Project`
 * When packaging completes successfully you can find the optimized build `.apk` file in the `Android_ASTC` directory
+* To build your own project off this template simply copy the `/Config` and `/Content` folders and replace those directories in your new project
 
 *For light building issues on MacOS you will need to add `UnrealEditor` and `UnrealLightmass` to your firewall settings to allow connections or temporarily disable firewall
+
 
 [Getting started with Meta Quest Developer Hub](https://developers.meta.com/horizon/documentation/unity/ts-mqdh-getting-started)
 

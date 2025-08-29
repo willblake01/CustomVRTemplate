@@ -1,6 +1,6 @@
 # Unreal Engine - MacOS
 
-[![Unreal Engine Logo](unreal-engine.png)](https://www.unrealengine.com/)
+[![Unreal Engine Logo](Images/unreal-engine.png)](https://www.unrealengine.com/)
 
 This custom VR template takes the base VR template and makes the following changes:
 

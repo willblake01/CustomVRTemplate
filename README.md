@@ -1,13 +1,15 @@
 # Unreal Engine - MacOS
 
-<img alt='Unreal Engine' src='https://dev.epicgames.com/community/api/documentation/image/bafbc878-8d43-4bdd-9964-85d6079d6811?resizing_type=fill&width=1920&height=335' width="100%" />
+[![Unreal Engine Logo](unreal-engine.png)](https://www.unrealengine.com/)
 
 This custom VR template takes the base VR template and makes the following changes:
 
 * Thumbstick locomotion (Left controller thumbstick)
 * Sprint (Click and hold left thumbstick while moving)
 * Snap turn (Right thumbstick L + R)
+* Custom Pawn collision
 * Base teleport functionality is unchanged (Right thumbstick up)
+* Variables for walk speed, sprint stamina, etc. can be changed in Blueprints
 
 ## How to use
 
@@ -24,11 +26,11 @@ This custom VR template takes the base VR template and makes the following chang
 
 [Install SDKs with Android Studio Flamingo](https://developer.android.com/studio/releases/past-releases/as-flamingo-release-notes)
 
-[Getting started with Meta Quest Developer Hub](https://developers.meta.com/horizon/documentation/unity/ts-mqdh-getting-started)
-
 ## Run a project on the Quest 3
 
 * Install Meta Quest Developer Hub
 * Connect Quest 3 to machine
 * Allow connection from inside the Quest 3 headset
 * In the Meta Quest Developer Hub navigate to the `Device Manager` tab and locate the `Apps` section. Use the `Add Build` button or drag the .apk file located in `Android_ASTC > YourProjectName-arm64.apk`
+
+[Getting started with Meta Quest Developer Hub](https://developers.meta.com/horizon/documentation/unity/ts-mqdh-getting-started)

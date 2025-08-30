@@ -16,11 +16,11 @@ This custom VR template takes the base VR template and makes the following chang
 * Clone into desired location
 * Open `CustomVRTemplate` project in Unreal Engine
 * Run `Platforms > Android > Package Project`
-* When packaging completes successfully you can find the optimized build `.apk` file in the `Android_ASTC` directory
+* When packaging completes successfully you can find the optimized build `.apk` file in the `CustomVRTemplate/Android_ASTC` directory
 * To build your own project off this template simply copy the `/Config` and `/Content` folders and replace those directories in your new project
 
 
-*When starting your new project make sure to navigate to `Edit > Project Settings` and in the Platforms tab click `Android` and resolve any issues in the `APK Packaging` and `Google Play Services` sections. Set the `Minimum SDK Version` to 29 and `Target SDK Version` to 32
+*When starting your new project make sure to navigate to `Edit > Project Settings` and in the `Platforms` tab click `Android` and resolve any issues in the `APK Packaging` and `Google Play Services` sections. Set the `Minimum SDK Version` to 29 and `Target SDK Version` to 32
 
 *For light building issues on MacOS you will need to add `UnrealEditor` and `UnrealLightmass` to your firewall settings to allow connections or temporarily disable firewall
 

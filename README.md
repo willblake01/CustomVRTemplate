@@ -27,6 +27,10 @@ This custom VR template takes the base VR template and makes the following chang
 
 [Install SDKs with Android Studio Flamingo](https://developer.android.com/studio/releases/past-releases/as-flamingo-release-notes)
 
+[Make sure to use XCode 16.2 when following Getting Up and Running in the next step](https://xcodereleases.com/)
+
+[Clone Unreal Engine Meta Fork and follow Getting Up and Running](https://github.com/Oculus-VR/UnrealEngine/?tab=readme-ov-file#getting-up-and-running)
+
 ## Run a project on the Quest 3
 
 * Install Meta Quest Developer Hub

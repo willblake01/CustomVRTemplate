@@ -13,7 +13,8 @@ This custom VR template takes the base VR template and makes the following chang
 
 ## How to use
 
-* Clone into desired location
+* Fork this repo (For your own version of the project to change how you want)
+* Clone fork into desired location
 * Open `CustomVRTemplate` project in Unreal Engine
 * Run `Platforms > Android > Package Project`
 * When packaging completes successfully you can find the optimized build `.apk` file in the `CustomVRTemplate/Android_ASTC` directory
@@ -31,6 +32,6 @@ This custom VR template takes the base VR template and makes the following chang
 * Install Meta Quest Developer Hub
 * Connect Quest 3 to machine
 * Allow connection from inside the Quest 3 headset
-* In the Meta Quest Developer Hub navigate to the `Device Manager` tab and locate the `Apps` section. Use the `Add Build` button or drag the .apk file located in `Android_ASTC > YourProjectName-arm64.apk`
+* In the Meta Quest Developer Hub navigate to the `Device Manager` tab and locate the `Apps` section. Use the `Add Build` button or drag the .apk file located in `YourProjectName/Android_ASTC/YourProjectName-arm64.apk`
 
 [Getting started with Meta Quest Developer Hub](https://developers.meta.com/horizon/documentation/unity/ts-mqdh-getting-started)

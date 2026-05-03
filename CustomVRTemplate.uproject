@@ -1,37 +1,20 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{E6C6ED35-F340-559E-C53C-9FB26CFBCD49}",
+	"EngineAssociation": "5.7",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
 		{
 			"Name": "OpenXR",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux",
-				"Android",
-				"VisionOS"
-			]
+			"Enabled": true
 		},
 		{
 			"Name": "OpenXREyeTracker",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux",
-				"Android"
-			]
+			"Enabled": true
 		},
 		{
 			"Name": "OpenXRHandTracking",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux",
-				"Android",
-				"VisionOS"
-			]
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
